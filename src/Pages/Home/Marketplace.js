@@ -130,8 +130,9 @@ function Home() {
 
                     <h1 style={{ marginBottom: "0px" }}>Upload Your Docs</h1>
                     <s.TextInfo> * Required fields</s.TextInfo>
-                  
-                    <s.TextInfo > File types supported: JPG, PNG, GIF, SVG,JPEG. Max size: 100 MB</s.TextInfo>
+                    <s.TextSubTitle>Your Digtial ID card *</s.TextSubTitle>
+
+                    <s.TextInfo >Types supported: Adhar Card, PAN Card, Voter ID Card, Electricity Bill, Bank Statement. Max size: 10 MB</s.TextInfo>
 
                     <s.uploadInput onChange={OnChangeFile} accept="image/png,image/gif,image/jpeg,image/jpg,image/svg"  type="file" name="file"  id="fileid" />
 
